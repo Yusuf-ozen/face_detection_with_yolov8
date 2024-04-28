@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("C:\\Users\\90531\\Desktop\\Computer_Vision_Projects\\1-Face_Detection\\face_detection_yolov8_t4gpu_10_epochs\\best.pt")
+model = YOLO("best.pt")
 cap = cv2.VideoCapture(0)
 
 ## loop through the video frames
