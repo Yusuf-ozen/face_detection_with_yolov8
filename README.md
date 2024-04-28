@@ -1,5 +1,5 @@
 # face_detection_with_yolov8
-## Usage
+## Usage For Real-Time Webcam
 `git clone https://github.com/Yusuf-ozen/face_detection_with_yolov8.git` 
 
 
@@ -11,3 +11,6 @@
 
 
 `python test.py ` 
+
+
+## Usage For Real-Time Webcam
