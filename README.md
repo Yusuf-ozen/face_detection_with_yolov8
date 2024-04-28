@@ -10,4 +10,4 @@
 `pip install -r requirements.txt` 
 
 
-`run test.py ` 
+`python test.py ` 
