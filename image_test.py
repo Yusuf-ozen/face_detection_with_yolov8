@@ -18,14 +18,14 @@ def main(image_path, resize_width, resize_height):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-    # Çıktı klasörünü oluştur
-    output_dir = "predicts"
+
+    output_dir = "predicts/images"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Zaman damgası al
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    # İşlenmiş çerçeveyi belirtilen klasöre kaydet
+
     output_path = os.path.join(output_dir, f"predict_{timestamp}.jpg")
     cv2.imwrite(output_path, annotated_frame)
 
