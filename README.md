@@ -24,7 +24,7 @@
 <br>
 <div class="gif">
 <p align="center">
-<img src='videos/Adsıztasarım.gif' align="center" width=800>
+<img src='videos/kv_gif.gif' align="center" width=800>
 </p>
 </div>
 </div>
