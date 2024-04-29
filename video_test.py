@@ -11,9 +11,9 @@ def main(video_path, resize_width, resize_height):
     output_dir = "predicts/videos"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Video için çıktı dosyası oluştur
+    
     output_video_path = os.path.join(output_dir, "output_video.mp4")
-    # Video yazıcıyı oluştur
+   
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter(output_video_path, fourcc, 30, (resize_width, resize_height))
 
@@ -26,7 +26,7 @@ def main(video_path, resize_width, resize_height):
 
             annotated_frame = results[0].plot()
 
-            # Videoya ekleyin
+            
             out.write(annotated_frame)
 
             cv2.imshow('YOLOv8 Inference', annotated_frame)
