@@ -1,3 +1,7 @@
+[![Python 3.11.6](https://img.shields.io/badge/python-3.11.6-blue.svg)](https://www.python.org/downloads/release/python-3116/)
+[![Git 2.39.1](https://img.shields.io/badge/git-2.39.1-red.svg)](https://git-scm.com/docs/git/2.39.0)
+
+
 # Face Detection With Yolov8
 
 ## Installation
@@ -42,5 +46,7 @@ Run this code at git bash or cmd and change `/path/image` according your files. 
 
 
 
+## Referances
+https://roboflow.com/
 
-
+https://github.com/ultralytics/ultralytics
