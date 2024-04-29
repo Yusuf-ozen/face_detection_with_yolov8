@@ -25,6 +25,9 @@ Run this code at git bash or cmd and change `/path/image` according your files. 
 
 
 ## Testing on a Video
+Run this code at git bash or cmd and change `/path/image` according your files. Using `--resize_width 400` and `--resize_height 400` the size of output of the video can change:
+
+
 `python video_test.py /path/video.mp4 --resize_width 1280 --resize_height 720` 
 
 
