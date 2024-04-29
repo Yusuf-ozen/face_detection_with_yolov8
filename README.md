@@ -1,16 +1,22 @@
 # face_detection_with_yolov8
-## Usage For Real-Time Webcam
+
+## Installation
 `git clone https://github.com/Yusuf-ozen/face_detection_with_yolov8.git` 
-
-
-
-`cd face_detection_with_yolov8` 
-
 
 `pip install -r requirements.txt` 
 
+`cd face_detection_with_yolov8` 
 
-`python test.py ` 
+## Testing On Real-Time Webcam
+`python live_test.py` 
+
+## Testing on an Image
+`python image_test.py /path/image.jpg --resize_width 400 --resize_height 300` 
+
+![Resim Açıklaması](predict.jpg)
 
 
-## Usage For Real-Time Webcam
+## Testing on a Video
+`python video_test.py /path/video.mp4 --resize_width 1280 --resize_height 720` 
+
+
