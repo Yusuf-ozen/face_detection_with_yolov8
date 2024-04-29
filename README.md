@@ -21,9 +21,14 @@
 
 
 
+<br>
+<div class="gif">
+<p align="center">
+<img src='videos/Adsıztasarım.gif' align="center" width=800>
+</p>
+</div>
+</div>
 
-
-https://github.com/Yusuf-ozen/face_detection_with_yolov8/assets/89209018/f3161a01-781f-4de0-a670-01efb4514c27
 
 
 
