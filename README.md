@@ -13,7 +13,7 @@
 ## Testing on an Image
 `python image_test.py /path/image.jpg --resize_width 400 --resize_height 300` 
 
-![Resim Açıklaması](predicts/predict.jpg)
+![Resim Açıklaması](predicts/images/predict.jpg)
 
 
 ## Testing on a Video
@@ -23,5 +23,8 @@
 
 
 
-https://github.com/Yusuf-ozen/face_detection_with_yolov8/assets/89209018/20efa31d-0428-4e20-8021-64032409b3e2
+https://github.com/Yusuf-ozen/face_detection_with_yolov8/assets/89209018/f3161a01-781f-4de0-a670-01efb4514c27
+
+
+
 
