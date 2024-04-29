@@ -13,7 +13,7 @@
 ## Testing on an Image
 `python image_test.py /path/image.jpg --resize_width 400 --resize_height 300` 
 
-![Resim Açıklaması](predicts/predict.jpg)
+![Resim Açıklaması](predicts/images/predict.jpg)
 
 
 ## Testing on a Video
